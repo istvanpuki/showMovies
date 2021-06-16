@@ -15,14 +15,10 @@ switchTheme.addEventListener("click", event => {
 switchTheme.addEventListener("click", event => {
 
     bodyBackground.classList.toggle("dark")
+    movieCard.classList.toggle("dark")
   
 })
 
-switchTheme.addEventListener("click", event => {
-
-    movieCard.classList.toggle("dark")
- 
-})
 
 
 

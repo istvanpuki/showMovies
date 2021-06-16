@@ -2,7 +2,7 @@ const main = document.getElementById('main')
 
 function _load() {
 
-  main.innerHTML = ''
+  
   movies.forEach(movie => {
     console.log(movie)
     const {title, year, rate, genre} = movie
@@ -13,7 +13,7 @@ function _load() {
       <div class="title">
         <span>${title}</span>
       </div>
-      <div class="rate">Rate: ${rate}</div>
+      <div class="rate">Rate:&#11088; ${rate}</div>
       <div class="year">${year}</div>
       <div class="genres">
         <ul>

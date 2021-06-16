@@ -37,7 +37,7 @@ main {
   flex-direction: row;
 }
 
-li::before {
+li::after {
   content: ", ";
 }
 
